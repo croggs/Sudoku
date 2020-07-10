@@ -27,9 +27,7 @@ saved_board = [
 num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 solutions=1
 valid_board(board,num)
-for n in range(0, 9):
-    print(board[n])
-print("")
+print_board(board)
 while (solutions==1):
         zero_board(board)
 
